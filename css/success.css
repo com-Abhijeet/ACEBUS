@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1,h2{
+  text-align: center;
+}
+h1{
+    background-color:black;
+    color: wheat;
+    padding: 10px;
+    margin: 0;
+}
+
+.busCard {
+    background: rgb(179,7,246);
+    /* background: linear-gradient(45deg, rgba(236,113,179,0.9780287114845938) 4%, rgba(234,244,107,1) 100%); */
+    background: linear-gradient(45deg, rgba(179,0,249,1) 0%, rgba(236,113,235,0.9780287114845938) 58%, rgba(241,230,244,0.9780287114845938) 100%);
+    margin: 5%;
+    padding: 10px;
+    /* padding-left: 50px; */
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 hwb(0 25% 75% / 0.678);
+    
+    width: auto;
+}
+.message{
+    color: rgb(17, 202, 0);
+    /* margin-left: 5%; */
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+button{
+    text-decoration: none;
+    color: aliceblue;
+    text-align: center;
+    /* width: 65%; */
+    display: flex;
+    padding:10px 25% 15px 25%;
+    background-color: #4a4e69;;
+    margin: 0 10px 10px 20%;
+    border-radius: 10px;
+}
+.accmsg{
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 0, 0);
+}

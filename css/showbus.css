@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    align-items: center;
+    background-color: black;
+    color: wheat;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0;
+
+}
+
+td{
+    /* border-spacing: 100px; */
+    width: 60%;
+}
+.busCard {
+    background: rgb(179,7,246);
+    /* background: linear-gradient(45deg, rgba(236,113,179,0.9780287114845938) 4%, rgba(234,244,107,1) 100%); */
+    background: linear-gradient(211deg, rgba(179,0,249,1) 0%, rgba(236,113,235,0.9780287114845938) 58%, rgba(241,230,244,0.9780287114845938) 100%);
+    margin: 5%;
+    padding: 10px;
+    /* padding-left: 50px; */
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 hwb(0 25% 75% / 0.678);
+    width: auto;
+}
+.busCard:hover{
+    /* background: linear-gradient(211deg, rgba(236,113,179,0.9780287114845938) 4%, rgba(234,244,107,1) 100%); */
+    background: linear-gradient(45deg, rgba(179,0,249,1) 0%, rgba(236,113,235,0.9780287114845938) 58%, rgba(241,230,244,0.9780287114845938) 100%);
+    transition: 15s;
+}
+p{
+    font-size: 20px;
+    margin: 10px;
+    
+}
+a.button{
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    color: aliceblue;
+    margin: 0 15px;
+    width: 35%;
+    padding:10px 0;
+    background-color: #4CAF50;
+    border-radius: 5%;
+    /* margin-bottom: 0 10px 10px 10px; */
+}
+a.button:hover {
+    opacity: 0.8;
+    background-color: #2e6d30;
+  }
